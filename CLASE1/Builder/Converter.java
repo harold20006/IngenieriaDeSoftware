@@ -1,15 +1,7 @@
-class Converter {
+interface Converter {
+    void makeLine();
+    void makeParagraph();
+    void makeTable();
 
-    public void makeLine() {
-
-    }
-
-    public void makeParagraph() {
-
-    }
-
-    public void makeTable() {
-
-    }
-
+    
 }
